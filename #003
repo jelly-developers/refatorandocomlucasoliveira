@@ -1,0 +1,24 @@
+<?php
+
+class RefatorandoComLucasOliveira
+{
+  private array $administradores = [
+    5266,
+    2,
+    1441,
+    1442,
+    2096,
+    2306,
+    4971,
+    4972,
+    5120,
+    5368,
+    6596,
+    6597
+  ];
+
+  public function getAdministrador(): bool
+  {
+    return $this->administrador = in_array($this->getId(), $this->administradores);
+  }
+}
